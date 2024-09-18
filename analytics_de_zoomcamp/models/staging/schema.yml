@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: crack-celerity-435208-v5 # For bigquery
+    schema: week_4_data
+
+    tables:
+      - name: green_taxi_data
+      - name: yellow_taxi_data
