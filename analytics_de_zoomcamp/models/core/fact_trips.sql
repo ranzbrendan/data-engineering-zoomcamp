@@ -81,4 +81,4 @@ INNER JOIN
     ON trips_unioned.pickup_location_id = pickup_zone.location_id
 INNER JOIN 
     dim_zones AS dropoff_zone
-    ON trips_unioned.pickup_location_id = dropoff_zone.location_id
+    ON trips_unioned.dropoff_location_id = dropoff_zone.location_id
